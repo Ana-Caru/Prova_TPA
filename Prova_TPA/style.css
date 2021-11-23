@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(184, 121, 199);
+    font-size: normal 15pt Lucida Sans;
+    position: absolute;
+    top: 60%; /* distancia topo*/
+    left: 50%; /* distancia  a esquerda*/
+    transform: translate(-50%,-65%); 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    color: lightyellow;
+}
+section{
+    background-color: lavender;
+    border-radius: 16px;
+    padding: 24px;
+    width: 330px;
+    margin: auto;
+    box-shadow: 3px 3px 3px rgba(red, green, blue, alpha);
+    text-align: center;
+
+}
+
+
+
+.btn{
+    font-size: 17px;
+    cursor: pointer;
+    color: purple;
+    margin: 5px;
+    background-color: rebeccapurple);
+    border-radius:3px;
+    border: none;
+}
+.btn:hover{/* quando o mouse passar em cima*/
+    background-color: mediumpurple;
+}
+
+.input{
+    background-color: lightsteelblue;
+    border: groove double;
+    margin: initial;
+}
+
+.input:hover{
+    
+    height: 60px;
+   
+}
